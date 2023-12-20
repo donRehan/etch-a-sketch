@@ -1,4 +1,12 @@
 [x] Add Header, Game and footer
 [x] Create board with border
 [x] Create 16x16 Divs using javascript
-[_] Set up the hover effect of the mouse
+[x] Set up the hover effect of the mouse
+[x] Add clear button that resets the board
+[x] Prompt the user for the number of divs 
+	MAX 100
+
+BUGS
+[x] Div is grabbed sometimes when I color it for some reason
+	Fix :: Adding draggable = false to created elements
+	PreventDefault to dragstart for all colorable divs was used

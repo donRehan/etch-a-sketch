@@ -19,11 +19,8 @@
 				flex-direction: column;
 				align-self: center;
 				">
-				<button>Buttons</button>
-				<button>Buttons</button>
-				<button>Buttons</button>
-				<button>Buttons</button>
-				<button>Buttons</button>
+				<button id="clear" onclick="clear_board();">Clear</button>
+				<button id="grid_size" onclick="change_grid_size();">Change grid size</button>
 			</div>
 
 			<div id="Board" style="
@@ -36,7 +33,9 @@
 				border-style: solid;
 				border-color: red;
 				margin-bottom: 25px;
-				">
+				"
+				draggable="false"
+				>
 			</div>
 		</div>
 

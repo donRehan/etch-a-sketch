@@ -43,3 +43,30 @@ body {
 	align-self: stretch;
 	display: flex;
 }
+
+.active { 
+	background-color: black;
+}
+
+button {
+	width: 140px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #ffffff;
+	border-width: 2px;
+	font-size: 18px;
+	font-weight: bold;
+	/*color: #ffc600;*/
+	color: #222222;
+	margin-top: 10px;
+	border-style: solid;
+	border-color: #222222;
+	/*border-color: #ffc600;*/
+	font-family: "Pacific";
+	padding: 15px;
+	transition-duration: 0.4s;
+}
+
+button:hover {
+	background-color: #ffc600;
+}

@@ -1,8 +1,0 @@
-Create basic alignment using to visualize how things will look
-Finish Footer , board and its boarders
-Add board divs {
-	Make the board flex with direction column
-	for row items they are flex 1 to fill the vertical space
-	Each Align self to stretch to fully occupy the board
-}
-Adjust row divs similar to the above
