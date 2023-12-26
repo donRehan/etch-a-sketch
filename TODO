@@ -6,7 +6,9 @@
 [x] Prompt the user for the number of divs 
 	MAX 100
 [x] Make clear work
-[?] Unify black and random colors into one function ?
+[x] Add 10% Darkening mode
+[x] Add button to return back to black color mode
+[_] Remove redudency in methods later
 
 BUGS
 [x] Div is grabbed sometimes when I color it for some reason
